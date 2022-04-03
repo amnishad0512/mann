@@ -37,6 +37,10 @@ a:focus {
 .container-fluid {
   max-width: 1366px;
 }
+.skill-bg{
+  background-color:#3f69aa;
+  font-size: 1em;
+}
 
 .btn {
   padding: 12px 25px;
@@ -97,6 +101,14 @@ a:focus {
   animation: spin 2s linear infinite;
 }
 
+.rotate{
+  transform: rotate(45deg);
+}
+.radius{
+  border-radius: 50%;
+  transform: rotate(1deg);
+
+}
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -204,10 +216,10 @@ a:focus {
     font-size: 15px;
     font-weight: 500;
   }
-  .navbar-nav > a:last-child {
+  /* .navbar-nav > a:last-child {
     border: 1px solid white;
     border-radius: 10px;
-  }
+  } */
   .navbar-light.nav-sticky .navbar-nav .nav-link,
   .navbar-light.nav-sticky .navbar-nav .nav-link:focus {
     color: #414141;
@@ -222,6 +234,7 @@ a:focus {
   .navbar-light.nav-sticky .navbar-nav .nav-link.active {
     color: #3f69aa;
   }
+ 
 }
 
 @media (max-width: 991.98px) {
@@ -253,7 +266,7 @@ a:focus {
 .hero {
   position: relative;
   width: 100%;
-  margin-bottom: 45px;
+  margin-bottom: 120px;
   padding: 40px 0 0 0;
   overflow: hidden;
   background: linear-gradient(rgba(63, 105, 170, 1), rgba(63, 105, 170, 1));
@@ -342,9 +355,6 @@ a:focus {
   border-color: #ffffff;
 }
 
-.hero .hero-btn .btn:first-child {
-  margin-right: 10px;
-}
 
 @media (max-width: 991.98px) {
   .hero {
