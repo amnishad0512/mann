@@ -27,7 +27,7 @@
     <!-- Nav Bar Start -->
     <div class="navbar navbar-expand-lg bg-light navbar-light">
         <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">Mann</a>
+            <a href="#home" class="navbar-brand">Mann</a>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -125,7 +125,7 @@
                     <div class="container-fluid">
                         <div class="row">
 
-                            <div class="col-sm-3 col-md-6 col-lg-4">
+                            <div class="col-sm-12 col-md-12 col-lg-4">
                                 <div class="d-flex flex-column">
                                     <h2 class="text-center">Front-End</h2>
                                     <div class="mt-3 p-3 badge badge-pill skill-bg text-white">HTML</div>
@@ -138,9 +138,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-9 col-md-6 col-lg-4">
+                            <div class="col-sm-12 col-md-12 col-lg-4">
                                 <div class="d-flex flex-column mb-3">
-                                    <h2 class="text-center">Back-End</h2>
+                                    <h2 class="text-center margin">Back-End</h2>
                                     <div class="mt-3 p-3 badge badge-pill skill-bg text-white">NODE.JS</div>
                                     <div class="mt-3 p-3 badge badge-pill skill-bg text-white">EXPRESS.JS</div>
                                     <div class="mt-3 p-3 badge badge-pill skill-bg text-white">MONGODB</div>
@@ -148,7 +148,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-sm-9 col-md-6 col-lg-4">
+                            <div class="col-sm-12 col-md-12 col-lg-4">
                                 <div class="d-flex flex-column mb-3">
                                     <h2 class="text-center">Other</h2>
                                     <div class="mt-3 p-3 badge badge-pill skill-bg text-white">GIT</div>
@@ -204,12 +204,26 @@
             " data-wow-delay="0.0s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <img src="assets/img/portfolio-1.jpg" alt="Image" />
+                            <img src="assets/img/tourbi/1.png" alt="Image" />
                         </div>
-                        <div class="portfolio-text">
-                            <h3>Turbi Clone
-                            </h3>
-                            <a class="btn" href="assets/img/portfolio-1.jpg" data-lightbox="portfolio">+</a>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Tourbi Clone</h5>
+                                    <a class="card-link badge badge-primary p-2" data-toggle="collapse" href="#tourbi">
+                                        Description
+                                    </a>
+                                    <a href="https://tourbiclone.netlify.app/" class="badge badge-danger p-2">Live</a>
+                                    <a href="https://github.com/Ashishpal438/Tourbi_clone" class="badge badge-warning p-2">Github</a>
+                                </div>
+                                <div id="tourbi" class="collapse hide" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>&bull; Toubi_clone is a web application that lets user select their dream tour. Tourbi helps you find tours or guides in 159 countries around the world, with tours typically charged per experience rather than per hour.</p>
+                                        <p>&bull; Executed in under 5 days, with a team of 3.</p>
+                                        <p>&bull; Tech stack - HTML, CSS, JS</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -222,12 +236,27 @@
             " data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <img src="assets/img/portfolio-2.jpg" alt="Image" />
+                            <img src="assets/img/codecov/1.png" alt="Image" />
                         </div>
-                        <div class="portfolio-text">
-                            <h3>Codecov Clone
-                            </h3>
-                            <a class="btn" href="assets/img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                        <div id="accordion">
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <h5>Codecov Clone</h5>
+                                    <a class="card-link badge badge-primary p-2" data-toggle="collapse" href="#codecov">
+                                        Description
+                                    </a>
+                                    <a href="https://codecov-clone-website.netlify.app/" class="badge badge-danger p-2">Live</a>
+                                    <a href="https://github.com/shreevalikushe/Codecov_Clone" class="badge badge-warning p-2">Github</a>
+                                </div>
+                                <div id="codecov" class="collapse hide" data-parent="#accordion">
+                                    <div class="card-body">
+                                       <p>&bull; Codecov is a tool that is used to measure the test coverage of your codebase.</p> 
+                                       <p>&bull; Executed in under 5 days, with a team of 3.</p>
+                                       <p>&bull; Tech stack - HTML, CSS</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -327,12 +356,12 @@
                         <div class="timeline-date">2020 - 2021</div>
                         <h2>IT Supervisor</h2>
                         <h4>NSEIT Limited, Raipur, Chhattisgarh, India</h4>
-                        <p>
+                        <p>&bull;
                             Setup 100+ computers for an examination in the examination
                             center
                         </p>
-                        <p>Make centralized server connection for these 100+ machines</p>
-                        <p>
+                        <p>&bull; Make centralized server connection for these 100+ machines</p>
+                        <p>&bull;
                             Setup LAN, Firewall, and other networks for these 100+ computers
                         </p>
                     </div>
@@ -356,7 +385,7 @@
                         <h2>Full Stack Web Development</h2>
                         <h4>Bangalore, Karnataka, India</h4>
                         <p>
-                           Currently, I'm learning Full Stack Web Development Course at Masai School.
+                            Currently, I'm learning Full Stack Web Development Course at Masai School.
                         </p>
                     </div>
                 </div>
@@ -430,8 +459,7 @@
                         <!-- <a href="https://twitter.com/amnishad0512"><i class="fab fa-twitter"></i></a>
                         -->
                         <!-- <a href="https://www.instagram.com/amnishad0512/"><i class="fab fa-instagram"></i></a> -->
-                        <a href="https://www.linkedin.com/in/amnishad0512/"><i
-                                class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/amnishad0512/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

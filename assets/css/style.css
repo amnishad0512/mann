@@ -109,6 +109,14 @@ a:focus {
   transform: rotate(1deg);
 
 }
+
+#codecov,#tourbi{
+  background-color: whitesmoke;
+  color: black;
+  z-index: 100;
+  text-align: justify;
+}
+
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -246,7 +254,9 @@ a:focus {
   .navbar .navbar-brand {
     color: #3f69aa;
   }
-
+  .margin{
+    margin-top:0.7em;
+  }
   .navbar .navbar-nav {
     margin-top: 15px;
   }
@@ -893,7 +903,7 @@ a:focus {
   position: relative;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transform: scale(1.1);
   transition: 0.5s;
 }
